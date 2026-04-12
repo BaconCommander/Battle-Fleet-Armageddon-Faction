@@ -55,28 +55,25 @@ SCR_ChimeraCharacter : "{79750082C98E1872}Prefabs/Characters/Factions/BLUFOR/IMP
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{6918ED301921E9D4}" {
-     TargetStorage "Jacket/Cad_Jacket_Base.et"
+    ItemsInitConfigurationItem "{6508DA2BA5FC121C}" {
      PrefabsToSpawn {
-      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6508DA2B9A24481A}" {
+     PrefabsToSpawn {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6918ED301921E9D4}" {
+     TargetStorage "Back/Backpack_Cadian_Base.et"
+     PrefabsToSpawn {
+      "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{C7EC7D721C5D36CF}Prefabs/Weapons/Grenades/Grenade_Krak.et" "{C7EC7D721C5D36CF}Prefabs/Weapons/Grenades/Grenade_Krak.et" "{D9159EB06BB0B1F4}Prefabs/Weapons/Grenades/Grenade_Frag.et" "{D9159EB06BB0B1F4}Prefabs/Weapons/Grenades/Grenade_Frag.et" "{6FBB5ED95874730B}Prefabs/Weapons/Attachments/Bayonets/Bayonet_M36.et" "{0619993AE6CDBF85}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE.et"
      }
     }
     ItemsInitConfigurationItem "{6918ED301921EA31}" {
      TargetStorage "Vest/Vest_CadianRPS.et"
      PrefabsToSpawn {
-      "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{D9159EB06BB0B1F4}Prefabs/Weapons/Grenades/Grenade_Frag.et"
-     }
-    }
-    ItemsInitConfigurationItem "{6918ED301921EA33}" {
-     TargetStorage "Vest/Vest_CadianRPS.et"
-     PrefabsToSpawn {
-      "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{D9159EB06BB0B1F4}Prefabs/Weapons/Grenades/Grenade_Frag.et"
-     }
-    }
-    ItemsInitConfigurationItem "{6918ED301921EA32}" {
-     TargetStorage "Vest/Vest_CadianRPS.et"
-     PrefabsToSpawn {
-      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+      "{253A5BCB4D445FA8}Prefabs/Items/Equipment/Maps/Guard_DataPad_Map_01.et" "{B260126B778C842A}Prefabs/Items/PersonalBelongings/PersonalBelongings_base.et" "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et" "{BC6068F0E7F50C54}Prefabs/Items/Equipment/Radios/Radio_VoxCaster.et"
      }
     }
     ItemsInitConfigurationItem "{6918ED3019203FEA}" {
