@@ -78,9 +78,6 @@ SCR_ChimeraCharacter : "{79750082C98E1872}Prefabs/Characters/Factions/BLUFOR/IMP
     }
     ItemsInitConfigurationItem "{6918ED3019203FEA}" {
      TargetStorage "Vest/Vest_CadianRPS.et"
-     PrefabsToSpawn {
-      "{6FBB5ED95874730B}Prefabs/Weapons/Attachments/Bayonets/Bayonet_M36.et"
-     }
     }
    }
   }
