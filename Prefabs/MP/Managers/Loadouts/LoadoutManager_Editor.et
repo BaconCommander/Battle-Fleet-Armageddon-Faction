@@ -11,5 +11,10 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
    m_sLoadoutResource "{20DC22C7D62229FF}Prefabs/Characters/Factions/BLUFOR/BFV/Character_BFA_Conscript.et"
    m_sAffiliatedFaction "BFA"
   }
+  SCR_FactionPlayerLoadout "{691AFD41A247333D}" {
+   m_sLoadoutName "Recruit"
+   m_sLoadoutResource "{22A02D3251ED2851}Prefabs/Characters/Factions/BLUFOR/BFV/Character_BFA_Recruit.et"
+   m_sAffiliatedFaction "BFA"
+  }
  }
 }
