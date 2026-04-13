@@ -1,4 +1,4 @@
 modded enum EEditableEntityLabel
 {
-	FACTION_BFV = 1337840000
+	FACTION_BFA = 1337840000
 };

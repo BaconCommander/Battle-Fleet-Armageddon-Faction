@@ -27,8 +27,7 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
   SCR_Faction "{6867100840B49E59}" {
    m_bShowInWelcomeScreenIfNonPlayable 0
   }
-  SCR_Faction "{686710084BE79C78}" : "{4EBF36FD3806A7C2}Configs/Factions/BFV.conf" {
-   FactionKey "BFV"
+  SCR_Faction "{686710084BE79C78}" : "{4EBF36FD3806A7C2}Configs/Factions/BFA.conf" {
   }
   SCR_Faction "{6918DDC7BB619B66}" {
   }
