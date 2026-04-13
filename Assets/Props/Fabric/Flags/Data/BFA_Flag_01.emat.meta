@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{EF4F21BE76953428}Assets/Props/Fabric/Flags/Data/BFV_Flag_01.emat"
+ Name "{EF4F21BE76953428}Assets/Props/Fabric/Flags/Data/BFA_Flag_01.emat"
  Configurations {
   EMATResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EMATResourceClass PS5 : PC {
   }
   EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
   }
  }
 }
