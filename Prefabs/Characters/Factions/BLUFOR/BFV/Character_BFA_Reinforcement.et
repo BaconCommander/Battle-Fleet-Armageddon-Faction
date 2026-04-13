@@ -6,7 +6,7 @@ SCR_ChimeraCharacter : "{79750082C98E1872}Prefabs/Characters/Factions/BLUFOR/IMP
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Cadian Conscript"
+    Name "Cadian Reinforcement"
     Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
     m_Image "{570FC53F444D1FB7}UI/Cadian/Cad_Rifleman.edds"
     m_sFaction "BFA"
