@@ -4,9 +4,9 @@ SCR_SpawnPoint : "{987991DCED3DC197}PrefabsEditable/SpawnPoints/E_SpawnPoint.et"
   SCR_EditableSpawnPointComponent "{52E65E94E3532698}" {
    m_UIInfo SCR_EditableDescriptorUIInfo "{52E65E94C47560A2}" {
     m_Image "{634887D6ACE69536}UI/Textures/EditorPreviews/Auto/Systems/SpawnPoints/E_SpawnPoint_USSR.edds"
-    m_sFaction "BFV"
+    m_sFaction "BFA"
     m_aAuthoredLabels + {
-     FACTION_BFV
+     FACTION_BFA
     }
    }
   }
@@ -14,5 +14,5 @@ SCR_SpawnPoint : "{987991DCED3DC197}PrefabsEditable/SpawnPoints/E_SpawnPoint.et"
    "faction affiliation" "BFV"
   }
  }
- m_sFaction "BFV"
+ m_sFaction "BFA"
 }
