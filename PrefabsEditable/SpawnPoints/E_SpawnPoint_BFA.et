@@ -11,7 +11,7 @@ SCR_SpawnPoint : "{987991DCED3DC197}PrefabsEditable/SpawnPoints/E_SpawnPoint.et"
    }
   }
   SCR_FactionAffiliationComponent "{5A5286F8ED58877B}" {
-   "faction affiliation" "BFV"
+   "faction affiliation" "BFA"
   }
  }
  m_sFaction "BFA"
