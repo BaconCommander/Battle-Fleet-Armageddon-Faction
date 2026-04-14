@@ -3,12 +3,10 @@ SCR_SpawnPoint : "{987991DCED3DC197}PrefabsEditable/SpawnPoints/E_SpawnPoint.et"
  components {
   SCR_EditableSpawnPointComponent "{52E65E94E3532698}" {
    m_UIInfo SCR_EditableDescriptorUIInfo "{52E65E94C47560A2}" {
-    m_Image "{634887D6ACE69536}UI/Textures/EditorPreviews/Auto/Systems/SpawnPoints/E_SpawnPoint_USSR.edds"
+    m_Image "{831012F41EFE085A}UI/Textures/EditorPreviews/Auto/Systems/SpawnPoints/E_SpawnPoint_US.edds"
     m_sFaction "BFA"
     m_aAuthoredLabels + {
      FACTION_BFA
-    }
-    m_aAutoLabels {
     }
    }
   }
@@ -16,5 +14,6 @@ SCR_SpawnPoint : "{987991DCED3DC197}PrefabsEditable/SpawnPoints/E_SpawnPoint.et"
    "faction affiliation" "BFA"
   }
  }
+ coords 0 0 0
  m_sFaction "BFA"
 }
