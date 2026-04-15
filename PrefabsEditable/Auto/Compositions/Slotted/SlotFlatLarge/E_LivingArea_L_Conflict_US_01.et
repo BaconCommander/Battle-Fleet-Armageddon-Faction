@@ -1,7 +1,7 @@
-GenericEntity : "{CDD0712FD6215F03}Prefabs/Compositions/Slotted/SlotFlatMedium/FieldHospital_M_Conflict_US_01.et" {
+GenericEntity : "{76D4FE49EA6C57F4}Prefabs/Compositions/Slotted/SlotFlatLarge/LivingArea_L_Conflict_US_01.et" {
  ID "5282DCB5DFC8538F"
  components {
-  SCR_EditableEntityComponent "{668EF5EAEF38D9F8}" {
+  SCR_EditableEntityComponent "{6692901B576C3765}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     m_sFaction "BFA"
     m_aAutoLabels {
