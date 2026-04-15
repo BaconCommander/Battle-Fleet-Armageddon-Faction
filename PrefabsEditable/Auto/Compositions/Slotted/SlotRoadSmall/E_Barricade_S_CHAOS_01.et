@@ -1,0 +1,142 @@
+GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{691F63FB63B7E2F0}" : "{055A4F00770B396B}Prefabs/Editor/Components/SlotRoadSmall_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_Barricade_S_USSR_01_Name"
+    Icon "{077BEF7A3C7930CF}UI/Textures/Editor/EditableEntities/Compositions/EditableEntity_Composition.edds"
+    m_Image ""
+    m_aAuthoredLabels {
+     ENTITYTYPE_COMPOSITION SLOT_ROAD_SMALL TRAIT_FORTIFICATION
+    }
+    m_aAutoLabels {
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{691F63FB63B7A9B7}" {
+      m_BudgetType CAMPAIGN
+      m_Value 60
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{691F63FB63B7B1BB}" {
+      m_BudgetType SYSTEMS
+      m_Value 2
+     }
+     SCR_EntityBudgetValue "{691F63FB63B7B941}" {
+      m_BudgetType PROPS
+      m_Value 7
+     }
+    }
+   }
+  }
+  SCR_EditorLinkComponent "{691F63FB63B686F1}" {
+   m_bRandomizeVariants 0
+   m_aEntries {
+    SCR_EditorLinkEntry "{691F63FB63B77B60}" {
+     m_Prefab "{365E4BF1FFFD8B30}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Long.et"
+     m_vPosition -0.002 0 -0.061
+     m_vAngles 0 67.454 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{691F63FB63B76AFB}" {
+     m_Prefab "{571E92E7B51831C9}PrefabsEditable/Auto/Props/Military/Fortification/E_CzechHedgehog_01_painted.et"
+     m_vPosition -1.126 0 0.799
+     m_vAngles 0 -28.97 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{691F63FB63B767ED}" {
+     m_Prefab "{571E92E7B51831C9}PrefabsEditable/Auto/Props/Military/Fortification/E_CzechHedgehog_01_painted.et"
+     m_vPosition 1.323 0 -0.475
+     m_vAngles 0 -125.843 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{691F63FB63B753CE}" {
+     m_Prefab "{4743C19D701160AA}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_05.et"
+     m_vPosition -1.384 0.1 0.204
+     m_vAngles 0 -13.237 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{691F63FB63B74CED}" {
+     m_Prefab "{4743C19D701160AA}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_05.et"
+     m_vPosition 1.248 0.1 0.118
+     m_vAngles 0 8.332 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{691F63FB63B738C9}" {
+     m_Prefab "{910D0810DB232ED5}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_LoiterPoint.et"
+     m_vPosition 0.881 0 -1.487
+     m_vAngles 0 115.873 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{691F63FB63B72B8C}" {
+     m_Prefab "{A1932F99114451A7}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Short.et"
+     m_vPosition 2.052 0.1 0.082
+     m_vAngles 0 -63.171 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{691F63FB63B7195D}" {
+     m_Prefab "{A1932F99114451A7}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Short.et"
+     m_vPosition -2.089 0 -0.387
+     m_vAngles 0 -90.121 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{691F63FB63B70A1B}" {
+     m_Prefab "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et"
+     m_vPosition -1.629 0 -1.835
+     m_vAngles 0 -81.269 0
+     m_fScale 1
+    }
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "5CC6ADB1E43AEBC1"
+   Flags 0x100000 0
+   {
+    DecalEntity {
+     ID "56E0B29E17039037"
+     Flags 0x100000 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6ADB1E43AEBF8"
+   Flags 0x100000 0
+   {
+    DecalEntity {
+     ID "56E0B29E17039037"
+     Flags 0x100000 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6B4B0D5E06037"
+   Flags 0x100000 0
+  }
+  GenericEntity {
+   ID "5CC6B4B0D5E06055"
+   Flags 0x100000 0
+  }
+  StaticModelEntity {
+   ID "5CC6ADB1E43AE880"
+   Flags 0x100000 0
+  }
+  StaticModelEntity {
+   ID "5CC6ADB1E43AEB04"
+   Flags 0x100000 0
+  }
+  StaticModelEntity {
+   ID "5CC6ADB1E43AEB22"
+   Flags 0x100000 0
+  }
+  StaticModelEntity {
+   ID "5CC6ADB1E43AEB54"
+   Flags 0x100000 0
+  }
+  StaticModelEntity {
+   ID "5CC6ADB1E43AEB7B"
+   Flags 0x100000 0
+  }
+ }
+}
