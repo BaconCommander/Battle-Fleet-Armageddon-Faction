@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{ACC54C63C678537F}Configs/EntityCatalog/IMP/Characters_EntityCatalog_IMP.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

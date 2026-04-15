@@ -2,16 +2,16 @@ SCR_ChimeraCharacter : "{79750082C98E1872}Prefabs/Characters/Factions/BLUFOR/IMP
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterFactionAffiliationComponent "{6508DA2A0EA79278}" {
-   "faction affiliation" "BFV"
+   "faction affiliation" "BFA"
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Cadian Conscript"
+    Name "Cadian Reinforcement"
     Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
     m_Image "{570FC53F444D1FB7}UI/Cadian/Cad_Rifleman.edds"
-    m_sFaction "BFV"
+    m_sFaction "BFA"
     m_aAuthoredLabels + {
-     FACTION_BFV CONTENT_MODDED ROLE_RIFLEMAN
+     FACTION_BFA CONTENT_MODDED ROLE_RIFLEMAN
     }
     m_aAutoLabels {
      SIZE_S ENTITYTYPE_CHARACTER
@@ -73,14 +73,11 @@ SCR_ChimeraCharacter : "{79750082C98E1872}Prefabs/Characters/Factions/BLUFOR/IMP
     ItemsInitConfigurationItem "{6918ED301921EA31}" {
      TargetStorage "Vest/Vest_CadianRPS.et"
      PrefabsToSpawn {
-      "{253A5BCB4D445FA8}Prefabs/Items/Equipment/Maps/Guard_DataPad_Map_01.et" "{B260126B778C842A}Prefabs/Items/PersonalBelongings/PersonalBelongings_base.et" "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et" "{BC6068F0E7F50C54}Prefabs/Items/Equipment/Radios/Radio_VoxCaster.et"
+      "{253A5BCB4D445FA8}Prefabs/Items/Equipment/Maps/Guard_DataPad_Map_01.et" "{B260126B778C842A}Prefabs/Items/PersonalBelongings/PersonalBelongings_base.et" "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et" "{59ECB330B727CCB4}Prefabs/Items/Equipment/Radios/Radio_Guard_Loayl.et"
      }
     }
     ItemsInitConfigurationItem "{6918ED3019203FEA}" {
      TargetStorage "Vest/Vest_CadianRPS.et"
-     PrefabsToSpawn {
-      "{6FBB5ED95874730B}Prefabs/Weapons/Attachments/Bayonets/Bayonet_M36.et"
-     }
     }
    }
   }

@@ -2,9 +2,14 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
  ID "56B2B47708C4F23A"
  m_aPlayerLoadouts {
   SCR_PlayerArsenalLoadout "{6918ED3556912DF8}" {
-   m_sLoadoutName "Conscript"
-   m_sLoadoutResource "{20DC22C7D62229FF}Prefabs/Characters/Factions/BLUFOR/BFV/Character_BFV_Conscript.et"
-   m_sAffiliatedFaction "BFV"
+   m_sLoadoutName "Loadout_Editor_SavedArsenalLoadout_Name"
+   m_sLoadoutResource "{836E7E39AAC5888B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Base.et"
+   m_sAffiliatedFaction "BFA"
+  }
+  SCR_FactionPlayerLoadout "{69192B898C00347B}" {
+   m_sLoadoutName "Reinforcement"
+   m_sLoadoutResource "{20DC22C7D62229FF}Prefabs/Characters/Factions/BLUFOR/BFV/Character_BFA_Conscript.et"
+   m_sAffiliatedFaction "BFA"
   }
  }
 }
