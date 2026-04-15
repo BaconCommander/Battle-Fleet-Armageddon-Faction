@@ -1,10 +1,36 @@
 SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
  ID "56B2B4776E6E4499"
+ coords 0 0 0
  Factions {
+  SCR_Faction "{56DEAC40D2DBC8B1}" {
+   m_bShowInWelcomeScreenIfNonPlayable 0
+  }
+  SCR_Faction "{56DEAC40D3C2E623}" {
+   m_bShowInWelcomeScreenIfNonPlayable 0
+  }
+  SCR_Faction "{56DEAC40D132400B}" {
+   m_bShowInWelcomeScreenIfNonPlayable 0
+  }
+  SCR_Faction "{6508DA3E411BCDB7}" {
+   m_bShowInWelcomeScreenIfNonPlayable 0
+  }
+  SCR_Faction "{651CD97C9A447B9B}" {
+   m_bShowInWelcomeScreenIfNonPlayable 0
+  }
+  SCR_Faction "{6658F10870B302BB}" {
+   m_bShowInWelcomeScreenIfNonPlayable 0
+  }
+  SCR_Faction "{686710087F18B495}" {
+   m_bIsPlayable 0
+   m_bShowInWelcomeScreenIfNonPlayable 0
+  }
+  SCR_Faction "{6867100840B49E59}" {
+   m_bShowInWelcomeScreenIfNonPlayable 0
+  }
+  SCR_Faction "{686710084BE79C78}" : "{4EBF36FD3806A7C2}Configs/Factions/BFA.conf" {
+  }
   SCR_Faction "{6918DDC7BB619B66}" {
   }
-  SCR_Faction "{686710084BE79C78}" : "{4EBF36FD3806A7C2}Configs/Factions/BFV.conf" {
-   FactionKey "BFV"
-  }
  }
+ m_bCanChangeFactionsPlayable 0
 }

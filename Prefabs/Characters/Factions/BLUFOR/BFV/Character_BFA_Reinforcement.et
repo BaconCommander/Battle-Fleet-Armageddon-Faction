@@ -1,0 +1,85 @@
+SCR_ChimeraCharacter : "{79750082C98E1872}Prefabs/Characters/Factions/BLUFOR/IMP/Character_IMP_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterFactionAffiliationComponent "{6508DA2A0EA79278}" {
+   "faction affiliation" "BFA"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Cadian Reinforcement"
+    Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+    m_Image "{570FC53F444D1FB7}UI/Cadian/Cad_Rifleman.edds"
+    m_sFaction "BFA"
+    m_aAuthoredLabels + {
+     FACTION_BFA CONTENT_MODDED ROLE_RIFLEMAN
+    }
+    m_aAutoLabels {
+     SIZE_S ENTITYTYPE_CHARACTER
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D5FE05A7823AC2A2}Prefabs/Weapons/Rifles/KantraelM36/LG_Kant_M36_Classic.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{15CE6048911C5506}Prefabs/Characters/HeadGear/Cadian/Cad_Helmet_WS.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{A39525C6043EBD2E}Prefabs/Characters/Vests/Cadian/Cadian_Armor_Base.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{40FC061B4B092644}Prefabs/Items/Equipment/Backpacks/Backpack_Cadian_Base.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{E849D801CCCBDBFA}Prefabs/Characters/Vests/CadianRPS/Vest_CadianRPS.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{62BF9FFDF9E7754C}Prefabs/Characters/Handwear/Cadian/Gloves_Cadian_Base.et"
+    }
+    LoadoutSlotInfo Head {
+    }
+    LoadoutSlotInfo Eyes {
+    }
+    LoadoutSlotInfo Extra2 {
+     Prefab "{446660C379CC7E7A}Prefabs/Clothing/Cadian/CadSholdRight_2Extra.et"
+    }
+    LoadoutSlotInfo Extra3 {
+     Prefab "{940BF6844BF29172}Prefabs/Clothing/Cadian/CadSholdLeft_3Extra.et"
+    }
+    LoadoutSlotInfo Extra4 {
+     Prefab "{B3FD93BFEEC2F190}Prefabs/Clothing/Cadian/CadLegProt_4Extra.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6508DA2BA5FC121C}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{6508DA2B9A24481A}" {
+     PrefabsToSpawn {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6918ED301921E9D4}" {
+     TargetStorage "Back/Backpack_Cadian_Base.et"
+     PrefabsToSpawn {
+      "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{3C878543B07DD3A6}Prefabs/Weapons/Magazines/Magazine_LasBat_KantraelM36_base.et" "{C7EC7D721C5D36CF}Prefabs/Weapons/Grenades/Grenade_Krak.et" "{C7EC7D721C5D36CF}Prefabs/Weapons/Grenades/Grenade_Krak.et" "{D9159EB06BB0B1F4}Prefabs/Weapons/Grenades/Grenade_Frag.et" "{D9159EB06BB0B1F4}Prefabs/Weapons/Grenades/Grenade_Frag.et" "{6FBB5ED95874730B}Prefabs/Weapons/Attachments/Bayonets/Bayonet_M36.et" "{0619993AE6CDBF85}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6918ED301921EA31}" {
+     TargetStorage "Vest/Vest_CadianRPS.et"
+     PrefabsToSpawn {
+      "{253A5BCB4D445FA8}Prefabs/Items/Equipment/Maps/Guard_DataPad_Map_01.et" "{B260126B778C842A}Prefabs/Items/PersonalBelongings/PersonalBelongings_base.et" "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et" "{59ECB330B727CCB4}Prefabs/Items/Equipment/Radios/Radio_Guard_Loayl.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6918ED3019203FEA}" {
+     TargetStorage "Vest/Vest_CadianRPS.et"
+    }
+   }
+  }
+ }
+}

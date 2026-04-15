@@ -1,0 +1,36 @@
+SCR_ChimeraCharacter : "{20DC22C7D62229FF}Prefabs/Characters/Factions/BLUFOR/BFV/Character_BFA_Conscript.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A8DF35D313C8FE25}Prefabs/Characters/HeadGear/Cadian/Cad_Helmet_Skull.et"
+    }
+    LoadoutSlotInfo Head {
+     Prefab "{55AB72CC8B5EC158}Prefabs/Clothing/Cadian/Cad_HelmLiner_Base.et"
+    }
+    LoadoutSlotInfo Eyes {
+     Prefab "{00CB40064C812B5E}Prefabs/Clothing/Cadian/Cad_BalisticGogles_Base.et"
+    }
+    LoadoutSlotInfo Face {
+     Prefab "{37E5C51D722BB3DF}Prefabs/Clothing/Cadian/Cad_GasMask_Base.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6508DA2BA5FC121C}" {
+     TargetStorage "Hat/Cad_Helmet_Skull.et"
+     PrefabsToSpawn {
+      "{3445A1E5C18AEED1}Prefabs/Items/Equipment/Flashlights/CadHelm_FlashLight02/Flashlight02_CadHelm_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6918ED301921EA31}" {
+     PrefabsToSpawn {
+      "{253A5BCB4D445FA8}Prefabs/Items/Equipment/Maps/Guard_DataPad_Map_01.et" "{B260126B778C842A}Prefabs/Items/PersonalBelongings/PersonalBelongings_base.et" "{59ECB330B727CCB4}Prefabs/Items/Equipment/Radios/Radio_Guard_Loayl.et"
+     }
+    }
+   }
+  }
+ }
+}
