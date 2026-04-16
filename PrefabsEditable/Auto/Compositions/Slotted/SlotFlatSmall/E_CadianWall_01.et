@@ -1,0 +1,13 @@
+GenericEntity {
+ ID "691CF8D4C8256C02"
+ components {
+  SCR_EditableEntityComponent "{691108B6B8688456}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{691108B7007F4D3F}" {
+    m_sFaction "BFA"
+    m_aAutoLabels {
+     FACTION_BFA
+    }
+   }
+  }
+ }
+}

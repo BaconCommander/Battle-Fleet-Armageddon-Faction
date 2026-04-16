@@ -1,0 +1,13 @@
+GenericEntity : "{FB18EFE9C1A81E2A}Prefabs/Compositions/Slotted/SlotFlatMedium/VehicleMaintenance_M_Conflict_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{65ECD7E8A3F13C73}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "BFA"
+    m_aAutoLabels {
+     FACTION_BFA
+    }
+   }
+  }
+ }
+}

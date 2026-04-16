@@ -1,0 +1,13 @@
+GenericEntity : "{AB87B392A989CA95}Prefabs/Compositions/Slotted/SlotFlatSmall/GuardTower_S_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{66026E5994EFA21D}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "BFA"
+    m_aAutoLabels {
+     FACTION_BFA
+    }
+   }
+  }
+ }
+}
