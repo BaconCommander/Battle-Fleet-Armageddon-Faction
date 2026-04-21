@@ -1,0 +1,11 @@
+GenericEntity : "{F09296B9255F6704}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_CommandPost_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{620EE6CE706E2A36}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "(Tent_CommandPost_BFA_01)"
+    m_sFaction "BFA"
+   }
+  }
+ }
+}
