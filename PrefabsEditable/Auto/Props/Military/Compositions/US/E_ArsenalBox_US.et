@@ -1,0 +1,13 @@
+GenericEntity : "{45C675ED3CFBBEC5}Prefabs/Props/Military/Compositions/US/ArsenalBox_US.et" {
+ ID "56F2C6D6F7C6DAFA"
+ components {
+  SCR_EditableSystemComponent "{5D6477349AB9FA5B}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "BFA"
+    m_aAutoLabels {
+     FACTION_BFA THEME_MILITARY ENTITYTYPE_SYSTEM SIZE_S TRAIT_REARMING
+    }
+   }
+  }
+ }
+}
