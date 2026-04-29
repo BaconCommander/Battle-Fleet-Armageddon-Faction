@@ -1,0 +1,35 @@
+StaticModelEntity : "{80DF3BD810D032AF}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01.et" {
+ ID "50D67C36F43527FE"
+ components {
+  SCR_CampaignBuildingCompositionComponent "{6938EB69691C4FEB}" {
+  }
+  SCR_EditableEntityComponent "{5A20859B27F36CAA}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "BFA"
+    m_aAutoLabels + {
+     FACTION_BFA TRAIT_SERVICE
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{6938EB694F470D2F}" {
+      m_Value 10
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{591A8592E6D58CC1}" {
+   ActionContexts {
+    UserActionContext "{6938F214608D7208}" {
+     ContextName "dissassembly"
+     Radius 3.56
+    }
+   }
+   additionalActions {
+    SCR_CampaignBuildingDisassemblyUserAction "{6938F2145FAB50C4}" {
+     ParentContextList {
+      "dissassembly"
+     }
+    }
+   }
+  }
+ }
+}
