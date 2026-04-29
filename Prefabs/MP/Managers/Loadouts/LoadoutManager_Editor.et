@@ -8,7 +8,7 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
   }
   SCR_FactionPlayerLoadout "{69192B898C00347B}" {
    m_sLoadoutName "Reinforcement"
-   m_sLoadoutResource "{20DC22C7D62229FF}Prefabs/Characters/Factions/BLUFOR/BFV/Character_BFA_Conscript.et"
+   m_sLoadoutResource "{20DC22C7D62229FF}Prefabs/Characters/Factions/BLUFOR/BFV/Character_BFA_Reinforcement.et"
    m_sAffiliatedFaction "BFA"
   }
  }
