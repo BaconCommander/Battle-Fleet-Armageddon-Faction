@@ -1,0 +1,14 @@
+GenericEntity : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_US.et" {
+ ID "50C6D20663830070"
+ components {
+  SCR_EditableEntityComponent "{5EF0BDF2D0AE76F6}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "BFA Flag"
+    m_Image "{955816875E8D9965}Assets/Props/Fabric/Flags/Data/BFA_Flag_preview.edds"
+   }
+  }
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_sDefaultMaterial "{D12C76AD7520FA1C}Assets/Props/Fabric/Flags/Data/Flag_1_2_BFA2.emat"
+  }
+ }
+}
