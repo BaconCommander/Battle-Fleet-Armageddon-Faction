@@ -10,4 +10,15 @@ GenericEntity : "{5A0992D551419C1C}Prefabs/Structures/ConcreteBunkers/Battlement
    }
   }
  }
+ {
+  GenericEntity {
+   ID "68F6DDB23E3EC9F3"
+   components {
+    RplComponent "{694EEBEB0C8A29DE}" {
+    }
+    Hierarchy "{694EEBEB16976273}" {
+    }
+   }
+  }
+ }
 }
