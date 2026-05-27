@@ -3,6 +3,7 @@ GenericEntity : "{9FDD4CC4F88DDC4A}M119_placeable.et" {
  components {
   SCR_EditableEntityComponent "{6111365AE1085D07}" {
    m_UIInfo SCR_EditableEntityUIInfo "{6111365AE1085D08}" {
+    m_Image "{64B4B54C72439A1B}Assets/Images/KriegFieldGun.edds"
     m_sFaction "BFA"
     m_aAuthoredLabels {
      ENTITYTYPE_COMPOSITION SLOT_FLAT_SMALL TRAIT_FORTIFICATION ENTITYTYPE_COMPOSITION FACTION_BFA
