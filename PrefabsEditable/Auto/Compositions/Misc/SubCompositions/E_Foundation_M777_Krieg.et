@@ -1,3 +1,12 @@
 GenericEntity {
  ID "69263363981AE2B7"
+ components {
+  SCR_EditorLinkComponent "{69263367EE0BB11D}" {
+   m_aEntries {
+    SCR_EditorLinkEntry "{69263367EDE796CC}" {
+    }
+   }
+  }
+ }
+ coords 2467.992 24.219 5472.017
 }
