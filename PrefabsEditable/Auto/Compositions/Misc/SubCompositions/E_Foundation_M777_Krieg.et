@@ -7,6 +7,13 @@ GenericEntity {
     }
    }
   }
+  SCR_PreviewEntityComponent "{69263366853FBB1E}" {
+   m_aEntries {
+    SCR_BasePreviewEntry "{6926E094E8555225}" {
+     m_vScale 1 1 1
+    }
+   }
+  }
  }
- coords 2467.992 24.219 5472.017
+ coords 2466.723 24.219 5478.622
 }
