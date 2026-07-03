@@ -1,8 +1,13 @@
-GenericEntity : "{54986385A6AF77B2}Prefabs/Systems/Arsenal/ArsenalBoxes/ArsenalBox_Base.et" {
+GenericEntity : "{54986385A6AF77B2}Prefabs/Props/Military/Arsenal/ArsenalBoxes/ArsenalBox_Base.et" {
  ID "56F2C6D6F7C6DAFA"
  components {
+  SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+   m_eArsenalSaveType NO_RESTRICTIONS
+  }
   SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
    "faction affiliation" "BFA"
   }
  }
+ coords 1420.569 2.75 4979.283
+ angles 0 -143.796 0
 }
